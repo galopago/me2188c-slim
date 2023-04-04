@@ -1,0 +1,192 @@
+
+(session "me2188c-slim.ses"
+  (base_design "me2188c-slim.dsn")
+  (placement
+    (resolution um 10)
+    (component Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+      (place J1 1051560 -1152160 front 90)
+    )
+    (component Inductor_SMD:L_Coilcraft_XAL60xx_6.36x6.56mm
+      (place L1 1086120 -1041400 front 180)
+    )
+    (component "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder"
+      (place C1 1146080 -1087120 front 270)
+    )
+    (component "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+      (place U1 1087120 -1107440 front 90)
+    )
+    (component "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder::1"
+      (place C2 1025160 -1087120 front 270)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "6.0.11-2627ca5db0~126~ubuntu20.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(C1-Pad1)"
+        (wire
+          (path F.Cu 2500
+            1129047 -1072153
+            1106320 -1072153
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1146080 -1055120
+            1129047 -1072153
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1129047 -1072153
+            1162230 -1105336
+            1162230 -1134522
+            1132839 -1163913
+            1122192 -1163913
+            1114113 -1155834
+            1114113 -1152160
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1102360 -1152160
+            1114113 -1152160
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1106320 -1041400
+            1106320 -1072153
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path F.Cu 2500
+            1129052 -1136148
+            1127760 -1137440
+            1127760 -1152160
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1146080 -1119120
+            1129052 -1136148
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1094495 -1101591
+            1129052 -1136148
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1094495 -1101591
+            1096620 -1099466
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1025160 -1119120
+            1038897 -1105383
+            1090703 -1105383
+            1094495 -1101591
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1096620 -1093940
+            1096620 -1099466
+          )
+        )
+      )
+      (net "Net-(U1-Pad2)"
+        (wire
+          (path F.Cu 2500
+            1051560 -1152160
+            1063313 -1152160
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1063313 -1152160
+            1063313 -1155833
+            1071799 -1164319
+            1081732 -1164319
+            1088805 -1157246
+            1088805 -1133678
+            1087120 -1131993
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1025160 -1055120
+            1009143 -1071137
+            1009143 -1131023
+            1030280 -1152160
+            1051560 -1152160
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1087120 -1120940
+            1087120 -1131993
+          )
+        )
+      )
+      (net "Net-(U1-Pad5)"
+        (wire
+          (path F.Cu 2500
+            1077620 -1093940
+            1077620 -1082887
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1065920 -1041400
+            1065920 -1072153
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1077620 -1082887
+            1076654 -1082887
+            1065920 -1072153
+          )
+        )
+      )
+      (net "Net-(U1-Pad1)"
+        (wire
+          (path F.Cu 2500
+            1076960 -1152160
+            1076960 -1140407
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1077620 -1120940
+            1077620 -1139747
+            1076960 -1140407
+          )
+        )
+      )
+    )
+  )
+)
