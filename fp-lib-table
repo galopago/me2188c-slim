@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Converter_mini_DCDC_PCB")(type "KiCad")(uri "${KIPRJMOD}/library/Converter_mini_DCDC_PCB.pretty")(options "")(descr ""))
+)
