@@ -1,6 +1,6 @@
 # ME2188 Step-Up Module
 
-![Finished Module](finished_module.jpg)
+![Finished Module](/assets/img/finished_module.jpg)
 
 This is a small step-up module based on the ![ME2188](/assets/pdf/me2188.pdf) chip, designed specifically for low-power 3.3V embedded systems. It allows you to boost the voltage from a single 1.5V battery to 3.3V, enabling you to power your projects efficiently.
 
